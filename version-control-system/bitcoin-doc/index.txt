@@ -5,3 +5,9 @@ Bitcoin, introduced in 2009 by an anonymous entity known as Satoshi Nakamoto, is
 The core idea behind Bitcoin is to provide a secure, borderless, and censorship-resistant form of money. Unlike traditional fiat currencies, Bitcoin has a finite supply capped at 21 million coins, making it a deflationary asset often referred to as "digital gold." Its revolutionary approach to finance has not only redefined money but also paved the way for a broader cryptocurrency ecosystem.
 
 Over the years, Bitcoin has evolved from a niche technology to a global financial phenomenon, attracting attention from investors, technologists, and regulators alike. Whether seen as a store of value, a medium of exchange, or a speculative asset, Bitcoin continues to shape the future of money and financial systems worldwide.
+
+How Bitcoin Works
+
+Bitcoin is powered by blockchain technology, which is essentially a decentralized ledger that records all transactions across the network. Each "block" in the blockchain contains a list of transactions, and these blocks are linked together chronologically. This ensures that the data is secure, transparent, and nearly impossible to alter.
+
+Bitcoin transactions are conducted using cryptographic keys: a public key, which serves as the address to receive Bitcoin, and a private key, which is used to authorize transactions. When someone sends Bitcoin, the network verifies the transaction through a process called mining.
