@@ -1,1 +1,7 @@
 What is bitcoin?
+
+Bitcoin, introduced in 2009 by an anonymous entity known as Satoshi Nakamoto, is the world’s first decentralized digital currency. It operates on a peer-to-peer network without the need for intermediaries such as banks or governments. Bitcoin transactions are secured and verified using blockchain technology, a transparent and immutable digital ledger.
+
+The core idea behind Bitcoin is to provide a secure, borderless, and censorship-resistant form of money. Unlike traditional fiat currencies, Bitcoin has a finite supply capped at 21 million coins, making it a deflationary asset often referred to as "digital gold." Its revolutionary approach to finance has not only redefined money but also paved the way for a broader cryptocurrency ecosystem.
+
+Over the years, Bitcoin has evolved from a niche technology to a global financial phenomenon, attracting attention from investors, technologists, and regulators alike. Whether seen as a store of value, a medium of exchange, or a speculative asset, Bitcoin continues to shape the future of money and financial systems worldwide.
