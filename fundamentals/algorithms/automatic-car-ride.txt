@@ -1,0 +1,25 @@
+Automatic car-ride.txt
+
+Secuencia:
+
+- Busco las llaves
+- Tomo las llaves
+- Me dirijo hacia el carro
+
+¿El carro esta bloqueado?
+    - Si esta cerrado, inserto la llave y lo abro
+    - Si esta abierto, abro la puerta
+- Ingreso al carro
+- Me siento
+- Acomodo los espejos
+- Si hay pasajeros me aseguro que tenga el cinturon de seguridad
+- verifico que la palanca este en modo parqueo (P)
+- Inserto la llaves en el arrancador
+- Giro la llave hacia la derecha para encenderlo
+
+¿hay carros pasando?
+    - Hay carros pasando, espero a que pasen
+    - No hay carros pasando, procedo a poner la palanca en modo marcha (D)
+- Presiono el acelerador
+-Me dirijo a mi destino
+
