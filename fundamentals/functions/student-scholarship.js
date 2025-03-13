@@ -17,9 +17,12 @@ const FAST_FORWARD_GRADE = 9
     const average = (grade1 + grade2 + grade3 + grade4) / AMOUNT_OF_GRADES
 
     if (average < MIN_AVERAGE_GRADE){
+    
       return false
     } else {
+      
       if (average < FAST_FORWARD_GRADE && !(assistantGrade === 'A' || assistantGrade === 'B')){
+       
         return false
       }
     }
@@ -32,7 +35,7 @@ function main(){
   const grade2 = parseFloat(prompt("Ingrese la nota de la materia2: "))
   const grade3 = parseFloat(prompt("Ingrese la nota de la materia3: "))
   const grade4 = parseFloat(prompt("Ingrese la nota de la materia4: "))
-  const assistantGrade = prompt("Ingrese la calificació de asistente de laboratorio (A,B,C): ")
+  const assistantGrade = prompt("Ingrese la calificació de asistente de laboratorio (A,B,C): ").toUpperCase()
 
   const isEligible = validateScholarship(grade1, grade2, grade3, grade4, assistantGrade)
      
