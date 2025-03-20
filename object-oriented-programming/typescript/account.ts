@@ -35,11 +35,7 @@ function Account(id:number,holderName:string, balance:number =0): AccountShape {
   return this
 }
 
-// const account1 : Account= {
-//   id:1,
-//   holderName:"Mauricio",
-//   balance:10000
-// }
+
 const account1: AccountShape  = new (Account as any)(1,"Mauricio", 10000)
 
 account1.deposit(1000)
