@@ -28,17 +28,16 @@ class Animal{
       this.age = age
     }
 
-    public sound(){
-      console.log('sound')
+    makeSound():string{
+      return 'sound'
     }
-    public displayInfo(){
-      console.log('Nombre : ',this.name)
-      console.log('Especie: ',this.specie)
-      console.log('Edad: ',this.age)
+    toString():string{
+      return `Nombre : ${this.name}\n Especie: ${this.specie}\n Edad: ${this.age}
+      `
     }
 }
 
-type HairLenght = 'small' | 'medium' | 'large'
+type HairLenght = 'pequeña' | 'mediana' | 'larga'
 
 class Lion extends Animal{
     private hair : HairLenght
@@ -47,21 +46,45 @@ class Lion extends Animal{
     super(name,specie,age)
     this.hair = hair
   }
-  sound(){
-    console.log('Grrrrr')
+  makeSound():string{
+    return 'Grrrrr'
+  }
+  print(): string {
+    const info = this.toString()
+    return `Tipo de melena ${this.hair}\n ${info}`
   }
 }
 
-type SizeType = 'small' | 'medium' | 'large'
+type SizeType = 'pequeño' | 'mediano' | 'grande'
 
 class Elephant extends Animal{
-  private size: SizeType
-  constructor(name:string,specie:string,age:number, size: SizeType)
+  
+  constructor(
+    name:string,
+    specie:string,
+    age:number, 
+    private size: SizeType)
   {
     super(name,specie,age)
     this.size = size
   }
-  sound(){
-    console.log('Brrrrrr')
+  makeSound(){
+    return 'Phrrrrrr'
+  }
+
+  print(){
+    const info = this.toString()
+    return `${info}\n Tamaño: ${this.size}`
   }
 }
+
+const lion1 = new Lion('mufasa','felino',10, 'mediana')
+const elephant1 = new Elephant('Grand', 'paquiderm', 15, 'grande')
+
+console.log(lion1.makeSound())
+lion1.setAge(12)
+console.log(lion1.print())
+
+console.log(elephant1.makeSound())
+elephant1.setAge(15)
+console.log(elephant1.print())
