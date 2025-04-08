@@ -50,7 +50,6 @@ const isVowel = (letter: string): boolean => {
         letter === 'u'
     )
 }
-
 const countVowels = (input: string): VowelCount => {
     const vowelCount: VowelCount = {
         total: 0,
@@ -60,7 +59,7 @@ const countVowels = (input: string): VowelCount => {
         o: 0,
         u: 0
     }
-    for (let i = 0; i < input.length; i ++){
+    for (let i = 0; i < input.length; i ++){ // const letter of input.LowerCase()
         const letter = input.toLowerCase()[i]
         if (isVowel(letter)){
             vowelCount[letter] ++
@@ -71,3 +70,4 @@ const countVowels = (input: string): VowelCount => {
 }
 
 console.log(countVowels("Hello, World!"))
+console.log(countVowels("See you later"))
